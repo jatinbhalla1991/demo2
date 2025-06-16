@@ -26,4 +26,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "MY_VAR = $MY_VAR"
+        run: echo "MY_VAR from expression = ${{ vars.MY_VAR }}"
