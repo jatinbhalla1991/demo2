@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    image: jatinbhalla1991/jatintest:latest
+    ports:
+     - "8080:80"
